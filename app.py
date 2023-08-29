@@ -6,7 +6,7 @@ import gradio as gr
 from gpt_index import SimpleDirectoryReader, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 from langchain.schema import Memory
 
-YOUR_API_KEY = "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"
+YOUR_API_KEY = "Insert API KEY HERE"
 os.environ['OPENAI_API_KEY'] = YOUR_API_KEY
 
 start_sequence = "\AI:"
