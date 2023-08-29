@@ -9,7 +9,7 @@ from langchain.document_loaders import UnstructuredPDFLoader
 from google.colab import drive
 
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 
 # Path to your CSV file
